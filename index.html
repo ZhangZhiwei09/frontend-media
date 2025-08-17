@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React + TS</title>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .logger {
+      flex: 1;
+      min-height: 300px;
+      padding: 14px;
+      line-height: 1.5;
+      color: #4fbf40;
+      border-radius: 6px;
+      background-color: #272727;
+      box-sizing: border-box;
+      margin-left: 50px;
+    }
+
+    .logger .error {
+      color: #DD4A68;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root" class="demo">
+    <div class="container">
+      <div id="app"></div>
+      <div class="logger"></div>
+    </div>
+    <script src="./src/App.tsx"></script>
+  </div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
